@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: aqi-monitor-backend
+    runtime: node
+    plan: free
+    branch: main
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+    healthCheckPath: /healthz
