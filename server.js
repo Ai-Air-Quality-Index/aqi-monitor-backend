@@ -25,7 +25,7 @@ const TG_CHAT_ID = process.env.TELEGRAM_CHAT_ID   || "";
 const TG_API     = `https://api.telegram.org/bot${TG_TOKEN}`;
 
 // ── Python ML Service URL ────────────────────────────────────
-const ML_SERVICE_URL = "https://aqi-ml-service-5d70.onrender.com";
+const ML_SERVICE_URL = "https://aqi-ml-service-ajxt.onrender.com";
 
 // ── Middleware ───────────────────────────────────────────────
 app.use(cors());
